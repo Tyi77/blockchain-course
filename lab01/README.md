@@ -42,7 +42,7 @@ Compiled with `solc 0.8.28` (evm target: cancun).
 
 ## Framework
 
-**Hardhat** (with Foundry-compatible Solidity test support via `hardhat-foundry`)
+**Hardhat 3** (with Foundry-compatible Solidity test support via `hardhat-foundry`)
 
 ---
 
@@ -53,13 +53,6 @@ Compiled with `solc 0.8.28` (evm target: cancun).
 ```bash
 npm install
 ```
-
-### 2. Verify the contract compiles
-
-```bash
-npx hardhat compile
-```
-
 ---
 
 ## Test Instructions
