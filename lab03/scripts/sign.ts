@@ -22,8 +22,7 @@ async function main() {
     const ttlSeconds = 3600n;
 
     const publicClient = await viem.getPublicClient();
-    const walletClients = await viem.getWalletClients();
-    const ownerClient = walletClients[1];
+    const [, ownerClient, ] = await viem.getWalletClients();
 
     if (!ownerClient) {
         throw new Error("No wallet client found. Check network account config.");
